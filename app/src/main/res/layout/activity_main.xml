@@ -14,7 +14,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
         android:textSize="40sp"
-        android:textColor="@color/icons"/>
+        android:textColor="@color/icons"
+        android:id="@+id/appNameTextView" />
 
     <Button
         android:layout_width="match_parent"
@@ -25,4 +26,18 @@
         android:layout_centerHorizontal="true"
         android:background="@color/accent"
         android:textColor="@color/secondary_text"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/locationEditText"
+        android:background="@color/icons"
+        android:textColor="@color/primary_text"
+        android:layout_above="@+id/findRestaurantsButton"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        android:hint="Enter Zip Code"
+        android:layout_centerHorizontal="true"
+        android:inputType="phone" />
+
 </RelativeLayout>
